@@ -1,0 +1,104 @@
+version: 1.0.12+1
+name: Atomfit
+description: Welcome to Atomfit.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+environment:
+    sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  intl: ^0.20.2       # your only intl constraint
+  table_calendar: ^3.2.0
+  flutter:
+    sdk: flutter
+  flutter_unity_widget:
+    path: ../
+  pointer_interceptor: ^0.9.3+2
+  video_player: ^2.5.1
+  animated_text_kit: ^4.2.2
+  percent_indicator: ^4.2.2
+  fl_chart: ^0.63.0
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.0.15
+  permission_handler: ^11.3.0  # Check for latest version on pub.dev
+  image_picker: ^0.8.7+5
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.4
+  health: ^12.1.0
+  app_settings: ^5.1.1
+  lottie: ^2.7.0
+  http: ^1.1.0
+  package_info_plus: ^8.3.0
+  provider: ^6.1.1
+  audioplayers: ^5.2.1
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  cloud_firestore: ^5.6.11
+  intl_phone_field: ^3.2.0 # or latest
+  uni_links: ^0.5.1
+  google_sign_in: ^6.1.0
+  sign_in_with_apple: ^6.1.0
+  crypto: ^3.0.3
+  firebase_analytics: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+
+dependency_overrides:
+  intl: ^0.20.2
+    
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google.png
+    - assets/apple.png
+    - assets/images/muscle_front_upper_body.png
+    - assets/images/muscle_back_upper_body.png
+    - assets/images/muscle_front_core.png
+    - assets/images/muscle_back_core.png
+    - assets/images/muscle_front_lower_body.png
+    - assets/images/muscle_back_lower_body.png
+    - assets/images/muscle_front_full_body.png
+    - assets/images/muscle_back_full_body.png
+    - assets/images/muscle_front_flexibility.png
+    - assets/images/muscle_back_flexibility.png
+    - assets/Teach_me.png #from here
+    - assets/Track_me.png
+    - assets/images/default_profile.png
+    - assets/icons/instagram.jpg
+    - assets/icons/x.jpg
+    - assets/instruction0.jpg
+    - assets/instruction1.png
+    - assets/instruction2.png
+    - assets/videos/track_me.mp4
+    - assets/videos/teach_me.mp4
+    - assets/lottie/health_permission.json
+    - assets/lottie/animated_bmi_scale.json
+    - assets/images/muscle_front_upper_body.png
+    - assets/images/muscle_back_upper_body.png
+    - assets/images/muscle_front_core.png
+    - assets/images/muscle_back_core.png
+    - assets/images/muscle_front_lower_body.png
+    - assets/images/muscle_back_lower_body.png
+    - assets/images/muscle_front_full_body.png
+    - assets/images/muscle_back_full_body.png
+    - assets/images/muscle_front_flexibility.png
+    - assets/images/muscle_back_flexibility.png
+    - assets/app_icon_copy.png
+    - assets/welcome_audio.mp3
+    - assets/strength.png
+    - assets/flexibility.png
+    - assets/core.png
+    - assets/cardio.png
+    - assets/images/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
